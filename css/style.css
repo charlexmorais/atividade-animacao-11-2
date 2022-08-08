@@ -1,0 +1,26 @@
+
+
+.informacoes {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: width 0.5s 0.5s , border-radius 0.5s  0.5s;
+  }
+  .informacoes > div {
+  opacity: 0;
+  transition: opacity 0.5s;
+  
+   
+  }
+
+  .informacoes:hover div {
+    opacity: 1;
+    transition: opacity 0.5s 1s;
+  }
+  .informacoes:hover{
+    width: 300px;
+    border-radius: 20px;
+    transition: width 1.5s, border-radius 0.5s;
+  }
